@@ -1,0 +1,72 @@
+body {
+    background-color: #19A1AE;
+}
+
+hr {
+    border-color: #E8E9EC;
+}
+
+#victor {
+    border-radius: 50%;
+    border-color: #FFFFFF;
+    border-width: 5px;
+}
+
+@font-face {
+    font-family: 'kumbh-bold';
+    src: url(Kumbh_Sans/KumbhSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'kumbh-regular';
+    src: url(Kumbh_Sans/KumbhSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'kumbh-light';
+    src: url(Kumbh_Sans/KumbhSans-Light.ttf);
+}
+
+.card-component {
+    
+    background-color: white;
+    border-radius: 15px;
+    width: 350px;
+    height: 374px;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5048);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.name {
+    font-family: 'kumbh-bold';
+    font-size: 18px;
+    color: #2E3349;
+}
+
+.age {
+    font-family: 'kumbh-regular'; 
+    font-size: 18px;
+    color: #6B7082
+}
+
+.location {
+    font-family: 'kumbh-regular';
+    font-size: 14px;
+    color: #6B7082;
+}
+
+.number {
+    font-family: 'kumbh-bold';
+    font-size: 18px;
+    color: #2E3349;
+}
+
+.subheading {
+    font-family: 'kumbh-regular'; 
+    font-size: 10px;
+    color: #6B7082;
+    letter-spacing: 1.5px;
+}
+
+
