@@ -36,6 +36,32 @@ hr {
     width: 350px;
     height: 374px;
     box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5048);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -187px;
+    margin-left: -175px;
+}
+
+@media all and (max-width: 500px){
+    .card-component {
+        background-color: white;
+        border-radius: 15px;
+        width: 326px;
+        height: 374px;
+        box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5048);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -187px;
+        margin-left: -175px;
+    }
+    .header-image {
+        border-radius: 15px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 326px;
+    }
 }
 
 .card-body {
@@ -93,5 +119,6 @@ hr {
     flex: 1;
     margin-top: -10px;
 }
+
 
 
