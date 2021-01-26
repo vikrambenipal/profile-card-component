@@ -121,6 +121,8 @@ hr {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: -7px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .number {
