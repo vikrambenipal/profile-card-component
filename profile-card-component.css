@@ -1,9 +1,21 @@
 body {
     background-color: #19A1AE;
+    /* background-image: url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat; */
+    /* background-image: url(images/bg-pattern-top.svg); */
 }
 
 hr {
     border-color: #E8E9EC;
+}
+
+.circle-top {
+    background-image: url(images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 1000px;
+    margin-left: -50px;
+    margin-top: -400px;
 }
 
 .header-image {
